@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to top, rgba(0, 0, 0, 1),rgba(0,0,0,0.6)), url(../images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 1px;
+}
+.header-content{
+    
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.header-title{
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+}
+.header-status{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #fff;
+}
+.header-btn{
+    padding: 15px 20px;
+    background-color:#f55442;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+main{
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+.donate-value{
+    text-align: center
+
+}
+.donate-value-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.donate-value-status{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.money-volume{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.active{
+    color: #f78472;
+    border: 2px solid;
+    padding: 20px 12px;
+    border-radius: 5px;
+}
+.hr{
+    width: 780px;
+}
+.donate-now{
+    padding: 15px 20px;
+    background-color: #f55442;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.amount{
+    font-size: 18px;
+    font-weight: 400;
+    color: #bababa;
+    margin: 0;
+}
+.donate-plan{
+    margin-top: 100px;
+}
+.donate-plan-disscuse{
+    text-align: center
+}
+.donate-plan-status{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.donate-plan-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.donate-plan-step{
+    display: flex;
+    gap: 15px;
+}
+.donate-plan-step .plan{
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+.donate-plan-food{
+    background-color: #d3e8f2;
+}
+.donate-plan-shelter{
+    background-color: #fce7e3;
+}
+.donate-plan-education{
+    background-color: #fcf6e3;
+}
+
+
+/* donation-live */
+.donation-section{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.donation{
+    float: top;
+    
+}
+.donation-title{
+    font-size: 38px;
+    
+}
+.donation-title h1{
+    margin-top: 0;
+}
+.donation-status{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.donation-status p{
+    margin-top: 0;
+}
+.donation-btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    background-color: #f55442;
+    border-radius: 5px;
+}
+
+.donation-seen img{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    background-blend-mode: soft-light;
+    
+}
+/* surviv */
+.donation-section1{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.donation1{
+    float: top;
+    
+}
+.donation-title1{
+    font-size: 38px;
+    
+}
+.donation-title1 h1{
+    margin-top: 0;
+}
+.donation-status1{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.donation-status1 p{
+    margin-top: 0;
+}
+.donation-btn1{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    background-color: #f55442;
+    border-radius: 5px;
+}
+
+.donation-seen1 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    background-blend-mode: soft-light;
+    
+}
+.update-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.update-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.update-status{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.update span{
+    display: block;
+    
+}
+.subscribe{
+    background-color: #fcf6e3;
+    padding: 60px;
+}
+.subscribe input, button{
+    padding: 10px 15px;
+    border: 0;
+    border-radius:5px ;
+}
+.subscribe button{
+    background-color: #f55442;
+    color: #fff;
+}
+.subscribe input{
+    background-color: #bababa;
+}
+
+.donate-footer{
+    background-color: #121111;
+    height: 200px;
+    margin-top: 100px;
+}
+.humble{
+    padding-top: 20px;
+    text-align: center;
+}
+.humble h1{
+    color:#c44545;
+    font-family: 'Blenda Script', sans-serif;
+    border: 0;
+}
+.humble p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
